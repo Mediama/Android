@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tvConnection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="13dp"
+        android:layout_y="16dp"
+        android:text="@string/Welcome" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="53dp"
+        android:text="@string/Login" />
+
+    <TextView
+        android:id="@+id/tvLoginName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="233dp"
+        android:layout_y="51dp"
+        android:text="@string/Name"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageButton
+        android:id="@+id/ibSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="317dp"
+        android:layout_y="12dp"
+        android:src="@android:drawable/ic_menu_search"
+        android:onClick="search" />
+
+</AbsoluteLayout>

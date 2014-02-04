@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MediaThequeAndroid</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Connection"></string>
+    <string name="log">Connexion</string>
+    <string name="ID">Identifiant</string>
+    <string name="PWD">Mot de passe</string>
+    <string name="Welcome">Bienvenue sur la médiathèque</string>
+    <string name="Login">Vous êtes connecté en tant que :</string>
+	<string name="Name">Toto</string>
+	
+</resources>
